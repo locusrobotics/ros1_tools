@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+
+  <name>rosbag_snapshot_msgs</name>
+  <version>0.4.0</version>
+  <description>rosbag_snapshot_msgs port to ROS2</description>
+
+  <maintainer email="pbovbel@locusrobotics.com">Paul Bovbel</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="pbovbel@locusrobotics.com">Paul Bovbel</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>ros1_message_mirror</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
