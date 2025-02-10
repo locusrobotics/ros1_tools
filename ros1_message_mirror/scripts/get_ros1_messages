@@ -22,7 +22,7 @@ def main(argv=sys.argv[1:]):
         '--type',
         required=True,
         type=str,
-        choices=['msg', 'srv'],
+        choices=['msg', 'srv', 'action'],
         help='The type of message to search for.')
     args = parser.parse_args(argv)
 
