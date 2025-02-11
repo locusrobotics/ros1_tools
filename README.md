@@ -9,7 +9,7 @@ Provides the `rosidl_from_ros1_package` cmake macro, allowing one to easily clon
 find_package(ros1_message_mirror REQUIRED)
 
 rosidl_from_ros1_package(
-  locus_msgs  # Package from ROS1 to mirror 
+  locus_msgs  # Package from ROS1 to mirror
 
   # Specify the dependencies of the messages and services we need ot build.
   DEPENDENCIES std_msgs
@@ -19,3 +19,5 @@ rosidl_from_ros1_package(
 )
 ...
 ```
+
+TODO(pbovbel) only works with `--merge-install`, something to do with how we reference ROS1 artifacts from ROS2.
