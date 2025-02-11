@@ -12,7 +12,7 @@ macro(rosidl_from_ros1_package package)
   # TODO(pbovbel) register bin path
   set(bin_path ${CMAKE_INSTALL_PREFIX}/lib/ros1_message_mirror)
 
-  set(message_types "msg" "srv")
+  set(message_types "msg" "srv" "action")
 
   foreach(message_type ${message_types})
     execute_process(COMMAND ${bin_path}/get_ros1_messages ${package} --type ${message_type}
@@ -47,10 +47,11 @@ macro(rosidl_from_ros1_package package)
   # How does rosidl know if something's a srv or msg? By the file extension?
   # No! by the containing directory! *facepalm*
   # https://github.com/ros2/rosidl/issues/213
-  if(msg_ROS2_LIST OR srv_ROS2_LIST)
+  if(msg_ROS2_LIST OR srv_ROS2_LIST OR action_ROS2_LIST)
     rosidl_generate_interfaces(${package}
       ${msg_ROS2_LIST}
       ${srv_ROS2_LIST}
+      ${action_ROS2_LIST}
       DEPENDENCIES ${args_DEPENDENCIES} builtin_interfaces
       ADD_LINTER_TESTS
     )
