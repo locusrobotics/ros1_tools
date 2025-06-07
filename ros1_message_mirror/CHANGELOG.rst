@@ -2,8 +2,8 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.0 (2025-06-06)
+------------------
 * Mirror actions using ros1_tools/ros1_message_mirror
 * Restore python3 shebang
 * Remove proprietary license from adapt_ros1_message
