@@ -2,6 +2,9 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.5.0 (2025-06-06)
 ------------------
 * Mirror actions using ros1_tools/ros1_message_mirror
