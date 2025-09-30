@@ -3,7 +3,7 @@
 <package format="3">
 
   <name>json_msgs</name>
-  <version>0.5.0</version>
+  <version>0.6.0</version>
   <description>locus_msgs port to ROS2</description>
 
   <maintainer email="pbovbel@locusrobotics.com">Paul Bovbel</maintainer>
