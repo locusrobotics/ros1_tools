@@ -9,8 +9,7 @@ macro(rosidl_from_ros1_package package)
     find_package(${dependency})
   endforeach()
 
-  # TODO(pbovbel) register bin path
-  set(bin_path ${CMAKE_INSTALL_PREFIX}/lib/ros1_message_mirror)
+  set(bin_path ${ros1_message_mirror_LIBEXEC_DIR})
 
   set(message_types "msg" "srv" "action")
 
