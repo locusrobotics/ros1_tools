@@ -3,7 +3,7 @@
 <package format="3">
 
   <name>rosbag_snapshot_msgs</name>
-  <version>0.6.0</version>
+  <version>0.7.0</version>
   <description>rosbag_snapshot_msgs port to ROS2</description>
 
   <maintainer email="pbovbel@locusrobotics.com">Paul Bovbel</maintainer>
