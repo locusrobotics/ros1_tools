@@ -3,7 +3,7 @@
 <package format="3">
 
   <name>wireless_msgs</name>
-  <version>0.7.0</version>
+  <version>0.7.1</version>
   <description>wireless_msgs port to ROS2</description>
 
   <maintainer email="pbovbel@locusrobotics.com">Paul Bovbel</maintainer>
