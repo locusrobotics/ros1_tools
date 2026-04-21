@@ -2,6 +2,9 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.7.0 (2026-03-03)
 ------------------
 
