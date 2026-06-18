@@ -2,6 +2,17 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix accessing get_ros1_messages from cmake (#7)
+  This works with merged installs, but otherwise does not because the
+  CMAKE_INSTALL_PREFIX points to the current package being build
+  (json_msgs) for example, not ros1_message_mirror.
+  Per Paul's comment, instead of using CMAKE_INSTALL_PREFIX we can
+  export the correct path from ros1_message_mirror so dependent
+  packages can find the script.
+* Contributors: James Prestwood
+
 0.7.0 (2026-03-03)
 ------------------
 

@@ -2,6 +2,9 @@
 Changelog for package rosbag_snapshot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.7.0 (2026-03-03)
 ------------------
 
