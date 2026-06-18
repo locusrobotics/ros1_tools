@@ -2,8 +2,8 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.0 (2026-06-18)
+------------------
 * Fix accessing get_ros1_messages from cmake (#7)
   This works with merged installs, but otherwise does not because the
   CMAKE_INSTALL_PREFIX points to the current package being build
