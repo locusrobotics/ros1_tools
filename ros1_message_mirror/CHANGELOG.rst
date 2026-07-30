@@ -2,6 +2,9 @@
 Changelog for package ros1_message_mirror
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.8.0 (2026-06-18)
 ------------------
 * Fix accessing get_ros1_messages from cmake (#7)
