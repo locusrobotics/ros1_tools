@@ -22,6 +22,7 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <ros1_depend>json_msgs</ros1_depend>
   </export>
 
 </package>
