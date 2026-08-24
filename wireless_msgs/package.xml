@@ -23,6 +23,7 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <ros1_depend>wireless_msgs</ros1_depend>
   </export>
 
 </package>
