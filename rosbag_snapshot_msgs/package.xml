@@ -12,9 +12,9 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <buildtool_depend>ros1_message_mirror</buildtool_depend>
 
   <depend>geometry_msgs</depend>
-  <depend>ros1_message_mirror</depend>
   <depend>std_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
