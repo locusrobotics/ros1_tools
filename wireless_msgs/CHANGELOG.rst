@@ -2,8 +2,8 @@
 Changelog for package wireless_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.2 (2026-10-21)
+------------------
 * Add ros1_depends to help per-package builds (`#9 <https://github.com/locusrobotics/ros1_tools/issues/9>`_)
 * Contributors: James Prestwood
 
