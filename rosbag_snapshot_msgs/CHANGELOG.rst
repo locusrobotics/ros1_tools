@@ -2,6 +2,11 @@
 Changelog for package rosbag_snapshot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add ros1_depends to help per-package builds (`#9 <https://github.com/locusrobotics/ros1_tools/issues/9>`_)
+* Contributors: James Prestwood
+
 0.8.1 (2026-07-30)
 ------------------
 
